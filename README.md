@@ -1,5 +1,7 @@
 # test_db
-## Структура бази даних
+## Photo on dbdiagrams
+![1](dbdiagram_photo.png)
+## Structure db
 
 ```mermaid
 erDiagram
