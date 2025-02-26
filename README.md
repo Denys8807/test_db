@@ -1,6 +1,13 @@
 # test_db
 ## Photo on dbdiagrams
 ![1](dbdiagram_photo.png)
+```sql
+CREATE TABLE countries (
+    country_id INTEGER PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
+
+```
 ## Structure db
 
 ```mermaid
@@ -30,3 +37,4 @@ erDiagram
     USERS ||--o{ POSTS : "1:n"
     USERS ||--o{ FOLLOWS : "1:n"
     FOLLOWS ||--o{ USERS : "n:1"
+```
